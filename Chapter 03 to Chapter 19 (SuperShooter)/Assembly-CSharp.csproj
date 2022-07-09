@@ -88,7 +88,7 @@
      <None Include="Assets/OLD - WIP - Chapter 12/GameHUD.uxml" />
      <None Include="Assets/OLD - WIP - Chapter 10/explosionsoundslite/readme.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets/OLD - WIP - Chapter 08/AllSkyFree/AllSkyFree_Readme.txt" />
+     <None Include="Assets/Chapter 12/AllSkyFree/AllSkyFree_Readme.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <None Include="Assets/UI Toolkit/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
