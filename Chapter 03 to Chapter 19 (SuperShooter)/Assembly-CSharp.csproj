@@ -45,11 +45,10 @@
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Life_Chapter17.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/LoadSceneButton.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/VelocityAnimator.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 19 (CSharp)/Scripts/SightScript.cs" />
+     <Compile Include="Assets/Chapter 09 (CSharp)/Scripts/Sight.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/EnableCursor.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerShooting_NewInput.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDamager.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 19 (CSharp)/Scripts/NavMeshAnimator.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/LifeBarScript.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/PlayerShooting_Chapter18.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Enemy.cs" />
@@ -59,8 +58,7 @@
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/Pause.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerMovement_NewInput.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/WaveSpawner.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 19 (CSharp)/Scripts/Sight.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 19 (CSharp)/Scripts/EnemyFSM.cs" />
+     <Compile Include="Assets/Chapter 09 (CSharp)/Scripts/EnemyFSM.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/WavesManager.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/QuitButton.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ScoreOnDeath.cs" />
@@ -77,7 +75,6 @@
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/EnemyManager.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/PlayerMovement_Chapter7.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/Autodestroy.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 19 (CSharp)/Scripts/WavesGameMode_Chapter19.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/ScoreUI.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter17.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

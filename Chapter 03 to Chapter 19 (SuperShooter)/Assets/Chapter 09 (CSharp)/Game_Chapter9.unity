@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 911c603efa814473f95d7bb7a985c3ae, type: 2}
 --- !u!1001 &35902497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f139bbac3c8fa5843b6bf1005a8c907b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 873959948181188077, guid: 74d55fc039905404d853ce4904167dfd, type: 3}
+  prefab: {fileID: 873959948181188077, guid: e59525aadf75b46f99ff8fc049bd0543, type: 3}
   startTime: 1
   endTime: 5
   spawnRate: 0.5
@@ -6078,7 +6078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799056735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.45, y: 19.298597, z: 80.11}
+  m_LocalPosition: {x: 101.45, y: 17.8, z: 80.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
