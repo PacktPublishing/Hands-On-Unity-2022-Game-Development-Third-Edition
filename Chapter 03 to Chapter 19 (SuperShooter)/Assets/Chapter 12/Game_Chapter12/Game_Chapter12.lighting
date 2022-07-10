@@ -8,7 +8,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: Game_Chapter12
   serializedVersion: 5
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
@@ -38,7 +38,7 @@ LightingSettings:
   m_FinalGather: 0
   m_FinalGatherRayCount: 256
   m_FinalGatherFiltering: 1
-  m_PVRCulling: 1
+  m_PVRCulling: 0
   m_PVRSampling: 1
   m_PVRDirectSampleCount: 4
   m_PVRSampleCount: 128
