@@ -42,7 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerMovement_OldInput.cs" />
-     <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Life_Chapter17.cs" />
+     <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Life_Chapter8.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/LoadSceneButton.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/VelocityAnimator.cs" />
      <Compile Include="Assets/Chapter 09 (CSharp)/Scripts/Sight.cs" />
@@ -50,7 +50,7 @@
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerShooting_NewInput.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDamager.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/LifeBarScript.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/PlayerShooting_Chapter18.cs" />
+     <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/PlayerShooting_Chapter11.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Enemy.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/WavesGameMode.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDestroyer.cs" />
@@ -62,7 +62,7 @@
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/WavesManager.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/QuitButton.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ScoreOnDeath.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/ExplosionOnDeath.cs" />
+     <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/ExplosionOnDeath.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/EnemiesUI.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/Life.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/LifeBar.cs" />
@@ -76,7 +76,10 @@
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/PlayerMovement_Chapter7.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/Autodestroy.cs" />
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/ScoreUI.cs" />
-     <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter17.cs" />
+     <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
+     <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/EnemyFSM_Chapter11.cs" />
+     <Compile Include="Assets/Chapter 14 (CSharp)/Scripts/PlayerShooting_Chapter14.cs" />
+     <Compile Include="Assets/Chapter 14 (CSharp)/Scripts/EnemyFSM_Chapter14.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/csc.rsp" />
@@ -86,7 +89,7 @@
      <None Include="Assets/Resources/BillingMode.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <None Include="Assets/OLD - WIP - Chapter 12/GameHUD.uxml" />
-     <None Include="Assets/Chapter 14/explosionsoundslite/readme.txt" />
+     <None Include="Assets/Chapter 14 (CSharp)/explosionsoundslite/readme.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets/Chapter 12/AllSkyFree/AllSkyFree_Readme.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />

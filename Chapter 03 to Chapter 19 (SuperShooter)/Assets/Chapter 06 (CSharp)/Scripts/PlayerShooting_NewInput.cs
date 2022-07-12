@@ -15,9 +15,5 @@ public class PlayerShooting_NewInput : MonoBehaviour
             clone.transform.position = shootPoint.transform.position;
             clone.transform.rotation = shootPoint.transform.rotation;
         }
-        else
-        {
-            print("Fire button released");
-        }
     }
 }

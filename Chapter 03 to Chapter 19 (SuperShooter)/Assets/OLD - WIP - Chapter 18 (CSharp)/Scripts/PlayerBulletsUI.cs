@@ -5,7 +5,7 @@ public class PlayerBulletsUI : MonoBehaviour
 {
     TMP_Text text;
 
-    public PlayerShooting_Chapter18 targetShooting;
+    public PlayerShooting_Chapter11 targetShooting;
 
     void Awake()
     {
@@ -14,7 +14,7 @@ public class PlayerBulletsUI : MonoBehaviour
 
     void Update()
     {
-        text.text = "Bullets: " + targetShooting.bulletsAmount;
+        //text.text = "Bullets: " + targetShooting.bulletsAmount;
     }
 }
 
