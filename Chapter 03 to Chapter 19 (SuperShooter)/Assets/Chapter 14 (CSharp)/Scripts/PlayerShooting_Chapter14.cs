@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerShooting_Chapter11 : MonoBehaviour
+public class PlayerShooting_Chapter14 : MonoBehaviour
 {
     public GameObject prefab;
     public GameObject shootPoint;
     public ParticleSystem muzzleEffect;
-    
+    public AudioSource shootSound;
+
     public void OnFire(InputValue value)
     {
         if (value.isPressed)
@@ -17,6 +18,9 @@ public class PlayerShooting_Chapter11 : MonoBehaviour
             clone.transform.rotation = shootPoint.transform.rotation;
             
             muzzleEffect.Play();
+            shootSound.Play();
         }
     }
 }
+
+

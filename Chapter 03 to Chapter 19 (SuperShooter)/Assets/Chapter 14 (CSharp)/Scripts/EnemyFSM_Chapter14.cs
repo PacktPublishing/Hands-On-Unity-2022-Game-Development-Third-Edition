@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyFSM_Chapter11 : MonoBehaviour
+public class EnemyFSM_Chapter14 : MonoBehaviour
 {
     public enum EnemyState { GoToBase, AttackBase, ChasePlayer, AttackPlayer }
     
@@ -17,6 +17,7 @@ public class EnemyFSM_Chapter11 : MonoBehaviour
     public float baseAttackDistance;
     public float playerAttackDistance;
     public ParticleSystem muzzleEffect;
+    public AudioSource shootSound;
 
     void Awake()
     {
@@ -111,6 +112,7 @@ public class EnemyFSM_Chapter11 : MonoBehaviour
         lastShootTime = Time.time;
         Instantiate(bulletPrefab, transform.position, transform.rotation);
         muzzleEffect.Play();
+        shootSound.Play();
     }
 
     void OnDrawGizmos()

@@ -78,6 +78,8 @@
      <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/Scripts/ScoreUI.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
      <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/EnemyFSM_Chapter11.cs" />
+     <Compile Include="Assets/Chapter 14 (CSharp)/Scripts/PlayerShooting_Chapter14.cs" />
+     <Compile Include="Assets/Chapter 14 (CSharp)/Scripts/EnemyFSM_Chapter14.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/csc.rsp" />
@@ -87,7 +89,7 @@
      <None Include="Assets/Resources/BillingMode.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <None Include="Assets/OLD - WIP - Chapter 12/GameHUD.uxml" />
-     <None Include="Assets/Chapter 14/explosionsoundslite/readme.txt" />
+     <None Include="Assets/Chapter 14 (CSharp)/explosionsoundslite/readme.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets/Chapter 12/AllSkyFree/AllSkyFree_Readme.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
@@ -884,9 +886,6 @@
      </Reference>
      <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
      <HintPath>/Users/nicolas.borromeo/Hands-On-Unity-2022/Chapter 03 to Chapter 19 (SuperShooter)/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
-     <HintPath>/Users/nicolas.borromeo/Hands-On-Unity-2022/Chapter 03 to Chapter 19 (SuperShooter)/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>/Users/nicolas.borromeo/Hands-On-Unity-2022/Chapter 03 to Chapter 19 (SuperShooter)/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
