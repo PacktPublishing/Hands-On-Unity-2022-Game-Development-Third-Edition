@@ -3,8 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class WavesGameMode : MonoBehaviour
 {
-    [SerializeField] Life_Chapter17 playerLife;
-    [SerializeField] Life_Chapter17 playerBaseLife;
+    [SerializeField] Life_Chapter8 playerLife;
+    [SerializeField] Life_Chapter8 playerBaseLife;
 
     void Start()
     {

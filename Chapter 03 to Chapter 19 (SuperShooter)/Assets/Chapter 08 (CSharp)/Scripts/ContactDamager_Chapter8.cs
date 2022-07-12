@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ContactDamager_Chapter17 : MonoBehaviour
+public class ContactDamager_Chapter8 : MonoBehaviour
 {
     public float damage;
 
@@ -8,7 +8,7 @@ public class ContactDamager_Chapter17 : MonoBehaviour
     {
         Destroy(gameObject);
 
-        Life_Chapter17 life = other.GetComponent<Life_Chapter17>();
+        Life_Chapter8 life = other.GetComponent<Life_Chapter8>();
         if (life != null)
         {
             life.amount -= damage;

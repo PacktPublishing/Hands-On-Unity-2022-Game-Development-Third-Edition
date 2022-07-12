@@ -6,7 +6,7 @@ public class ScoreOnDeath : MonoBehaviour
 
     void Awake()
     {
-        var life = GetComponent<Life_Chapter17>();
+        var life = GetComponent<Life_Chapter8>();
         life.onDeath.AddListener(GivePoints);
     }
 

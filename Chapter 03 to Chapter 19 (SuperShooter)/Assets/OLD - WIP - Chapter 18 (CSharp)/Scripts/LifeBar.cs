@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class LifeBar : MonoBehaviour
 {
     Image image;
-    public Life_Chapter17 targetLife;
+    public Life_Chapter8 targetLife;
 
     void Awake()
     {

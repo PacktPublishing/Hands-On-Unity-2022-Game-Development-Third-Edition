@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class Life_Chapter17 : MonoBehaviour
+public class Life_Chapter8 : MonoBehaviour
 {
     public float amount;
     public UnityEvent onDeath;

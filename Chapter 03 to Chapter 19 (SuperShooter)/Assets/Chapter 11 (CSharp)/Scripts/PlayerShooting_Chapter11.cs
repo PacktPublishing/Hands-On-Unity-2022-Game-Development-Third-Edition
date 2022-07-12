@@ -1,11 +1,12 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerShooting_NewInput : MonoBehaviour
+public class PlayerShooting_Chapter11 : MonoBehaviour
 {
     public GameObject prefab;
     public GameObject shootPoint;
-
+    public ParticleSystem muzzleEffect;
+    
     public void OnFire(InputValue value)
     {
         if (value.isPressed)
@@ -14,6 +15,9 @@ public class PlayerShooting_NewInput : MonoBehaviour
 
             clone.transform.position = shootPoint.transform.position;
             clone.transform.rotation = shootPoint.transform.rotation;
+            
+            muzzleEffect.Play();
         }
     }
 }
+
