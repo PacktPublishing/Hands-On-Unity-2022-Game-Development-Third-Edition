@@ -2371,7 +2371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 860793eb3324391468f1c120a75ec049, type: 3}
       propertyPath: m_Name
-      value: Player (1)
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 860793eb3324391468f1c120a75ec049, type: 3}
       propertyPath: m_Layer
@@ -14752,7 +14752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da854f18bdeb78f42b2a6186b97a37b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLife: {fileID: 0}
+  playerLife: {fileID: 397488129}
   playerBaseLife: {fileID: 799056736}
 --- !u!4 &1341592589
 Transform:
