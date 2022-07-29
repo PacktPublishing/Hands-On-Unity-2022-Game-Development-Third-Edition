@@ -209,12 +209,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.ui": {
-      "version": "2.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.visualeffectgraph": {
       "version": "13.1.8",
       "depth": 0,
