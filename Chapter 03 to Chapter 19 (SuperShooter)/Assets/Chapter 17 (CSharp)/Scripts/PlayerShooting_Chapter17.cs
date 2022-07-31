@@ -8,7 +8,7 @@ public class PlayerShooting_Chapter17 : MonoBehaviour
     public GameObject shootPoint;
     public ParticleSystem muzzleEffect;
     public AudioSource shootSound;
-    
+    public float fireRate;
     public int bulletsAmount;
 
     Animator animator;
@@ -20,10 +20,24 @@ public class PlayerShooting_Chapter17 : MonoBehaviour
 
     public void OnFire(InputValue value)
     {
-        if (value.isPressed && bulletsAmount > 0 && Time.timeScale > 0)
+        animator.SetBool("Shooting", value.isPressed);
+        
+        if (value.isPressed)
         {
-            animator.SetBool("Shooting", true);
-            
+            InvokeRepeating("Shoot", fireRate, fireRate);
+        }
+        else
+        {
+            CancelInvoke();
+        }
+        
+        
+    }
+
+    private void Shoot()
+    {
+        if (bulletsAmount > 0 && Time.timeScale > 0)
+        {
             bulletsAmount--;
             
             GameObject clone = Instantiate(prefab);
@@ -34,11 +48,9 @@ public class PlayerShooting_Chapter17 : MonoBehaviour
             muzzleEffect.Play();
             shootSound.Play();
         }
-        else
-        {
-            animator.SetBool("Shooting", false);
-        }
     }
 }
+
+
 
 
