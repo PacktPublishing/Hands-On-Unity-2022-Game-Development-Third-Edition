@@ -79,6 +79,8 @@
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/Autodestroy.cs" />
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/ScoreUI.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/PlayerShooting_Chapter17.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/PlayerBulletsUI_Chapter17.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/csc.rsp" />
