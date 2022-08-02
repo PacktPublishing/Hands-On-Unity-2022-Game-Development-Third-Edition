@@ -16,4 +16,3 @@ public class VelocityAnimator : MonoBehaviour
         animator.SetFloat("Velocity", rb.velocity.magnitude);
     }
 }
-

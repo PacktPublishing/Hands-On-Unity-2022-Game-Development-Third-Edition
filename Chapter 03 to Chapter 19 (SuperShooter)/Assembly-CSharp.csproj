@@ -44,7 +44,7 @@
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerMovement_OldInput.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Life_Chapter8.cs" />
      <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/EnemyFSM_Chapter11.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/VelocityAnimator.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/VelocityAnimator.cs" />
      <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/PlayerBulletsUI_Chapter17.cs" />
      <Compile Include="Assets/Chapter 14 (CSharp)/Scripts/EnemyFSM_Chapter14.cs" />
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/EnemyFSM_Chapter15.cs" />
@@ -82,6 +82,7 @@
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/ScoreUI.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
      <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/EnemyFSM_Chapter17.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/NavMeshAnimator.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/csc.rsp" />
