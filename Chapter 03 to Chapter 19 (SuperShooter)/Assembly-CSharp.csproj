@@ -54,6 +54,7 @@
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDamager.cs" />
      <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/PlayerShooting_Chapter11.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Enemy.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/EnemyFSM_Chapter17.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/WavesGameMode.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDestroyer.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/ForwardMovement.cs" />
@@ -80,9 +81,8 @@
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/PlayerMovement_Chapter7.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/Autodestroy.cs" />
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/ScoreUI.cs" />
-     <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
-     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/EnemyFSM_Chapter17.cs" />
      <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/NavMeshAnimator.cs" />
+     <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/csc.rsp" />
