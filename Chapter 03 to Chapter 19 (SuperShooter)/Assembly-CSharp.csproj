@@ -44,7 +44,8 @@
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerMovement_OldInput.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Life_Chapter8.cs" />
      <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/EnemyFSM_Chapter11.cs" />
-     <Compile Include="Assets/OLD - WIP - Chapter 18 (CSharp)/VelocityAnimator.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/VelocityAnimator.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/PlayerBulletsUI_Chapter17.cs" />
      <Compile Include="Assets/Chapter 14 (CSharp)/Scripts/EnemyFSM_Chapter14.cs" />
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/EnemyFSM_Chapter15.cs" />
      <Compile Include="Assets/Chapter 09 (CSharp)/Scripts/Sight.cs" />
@@ -53,6 +54,7 @@
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDamager.cs" />
      <Compile Include="Assets/Chapter 11 (CSharp)/Scripts/PlayerShooting_Chapter11.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/Enemy.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/EnemyFSM_Chapter17.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/WavesGameMode.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/ContactDestroyer.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/ForwardMovement.cs" />
@@ -73,11 +75,13 @@
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/WaveSpawner_Chapter17.cs" />
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/PlayerBulletsUI.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ScoreManager.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/PlayerShooting_Chapter17.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/PlayerShooting_OldInput.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/EnemyManager.cs" />
      <Compile Include="Assets/Chapter 07 (CSharp)/Scripts/PlayerMovement_Chapter7.cs" />
      <Compile Include="Assets/Chapter 06 (CSharp)/Scripts/Autodestroy.cs" />
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/ScoreUI.cs" />
+     <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/NavMeshAnimator.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />

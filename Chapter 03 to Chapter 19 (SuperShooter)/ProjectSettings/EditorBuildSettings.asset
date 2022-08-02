@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Chapter 16/TestUI.unity
-    guid: 7a4040bbe8ad14df1a761ebd5b8718f4
+    path: Assets/Chapter 08 (CSharp)/WinScreen.unity
+    guid: 78b8efda0c7f9be47b78cc7bd0652e98
+  - enabled: 1
+    path: Assets/Chapter 08 (CSharp)/LoseScreen.unity
+    guid: 74a0d1ec2421e774eb2ab6259eaffdff
   m_configObjects: {}
