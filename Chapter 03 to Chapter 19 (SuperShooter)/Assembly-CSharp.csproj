@@ -83,6 +83,7 @@
      <Compile Include="Assets/Chapter 15 (CSharp)/Scripts/ScoreUI.cs" />
      <Compile Include="Assets/Chapter 17 (CSharp)/Scripts/NavMeshAnimator.cs" />
      <Compile Include="Assets/Chapter 08 (CSharp)/Scripts/ContactDamager_Chapter8.cs" />
+     <Compile Include="Assets/Chapter 19/Pool.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/csc.rsp" />
@@ -889,6 +890,9 @@
      </Reference>
      <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
      <HintPath>/Users/nicolas.borromeo/Hands-On-Unity-2022/Chapter 03 to Chapter 19 (SuperShooter)/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+     <HintPath>/Users/nicolas.borromeo/Hands-On-Unity-2022/Chapter 03 to Chapter 19 (SuperShooter)/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>/Users/nicolas.borromeo/Hands-On-Unity-2022/Chapter 03 to Chapter 19 (SuperShooter)/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
