@@ -11,10 +11,13 @@ public class LookAtNearestEnemy : MonoBehaviour
         for (var i = 1; i < EnemyManager.instance.all.Count; i++)
         {
             var enemy = EnemyManager.instance.all[i];
-            var distToNearest = Vector3.Distance(nearestEnemy.transform.position, transform.position);
-            var distToEnemy = Vector3.Distance(enemy.transform.position, transform.position);
+            var enemyPos = enemy.transform.position;
+            var nearEnemyPos = nearestEnemy.transform.position;
+            
+            var distToNear = Vector3.Distance(nearEnemyPos, transform.position);
+            var distToEnemy = Vector3.Distance(enemyPos, transform.position);
 
-            if (distToEnemy < distToNearest)
+            if (distToEnemy < distToNear)
                 nearestEnemy = enemy;
         }
 

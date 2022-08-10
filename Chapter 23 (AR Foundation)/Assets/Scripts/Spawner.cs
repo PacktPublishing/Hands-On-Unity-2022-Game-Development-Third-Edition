@@ -1,26 +1,32 @@
-﻿using UnityEngine;
+﻿
+    using UnityEngine;
 
-public class Spawner : MonoBehaviour
-{
-    public GameObject prefab;
-    public float frequency;
-
-    void Awake()
+    public class Spawner : MonoBehaviour
     {
-        InvokeRepeating("Spawn", frequency, frequency);
-    }
+        public GameObject prefab;
+        public float frequency;
 
-    void Spawn()
-    {
-        var obj = Instantiate(prefab, transform.position, transform.rotation);
-
-        var myCollider = GetComponentInChildren<Collider>();
-        var spawnedCollider = obj.GetComponentInChildren<Collider>();
-        
-        //Check if both objects have collider
-        if (myCollider != null && spawnedCollider != null)
+        void Awake()
         {
-            Physics.IgnoreCollision(myCollider, spawnedCollider);
+            InvokeRepeating("Spawn", frequency, frequency);
+        }
+
+        void Spawn()
+        {
+            var obj = Instantiate(prefab, 
+                transform.position, 
+                transform.rotation);
+
+            var myCollider = GetComponentInChildren<Collider>();
+            var spawnedCol = obj.GetComponentInChildren<Collider>();
+            
+            //Check if both objects have collider
+            if (myCollider != null && spawnedCol != null)
+            {
+                Physics.IgnoreCollision(myCollider, spawnedCol);
+            }
         }
     }
-}
+    
+    
+    

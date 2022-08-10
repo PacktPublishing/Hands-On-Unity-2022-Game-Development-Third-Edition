@@ -12,4 +12,3 @@ public class Enemy : MonoBehaviour
         EnemyManager.instance.all.Remove(this);
     }
 }
-

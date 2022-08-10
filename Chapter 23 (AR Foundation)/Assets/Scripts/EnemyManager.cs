@@ -12,4 +12,3 @@ public class EnemyManager : MonoBehaviour
         instance = this;
     }
 }
-

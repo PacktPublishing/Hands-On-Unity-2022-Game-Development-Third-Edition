@@ -10,5 +10,3 @@ public class Damager : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
-    

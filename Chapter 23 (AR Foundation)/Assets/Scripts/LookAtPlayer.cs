@@ -6,8 +6,7 @@ public class LookAtPlayer : MonoBehaviour
     {
         if(PlayerManager.instance == null) return;
 
-        transform.forward = PlayerManager.instance.transform.position - transform.position;
+        var playerPos = PlayerManager.instance.transform.position;
+        transform.forward = playerPos - transform.position;
     }
 }
-
-
