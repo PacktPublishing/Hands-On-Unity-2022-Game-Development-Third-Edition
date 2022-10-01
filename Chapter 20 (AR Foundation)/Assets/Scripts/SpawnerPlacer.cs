@@ -20,7 +20,7 @@
             var touchPos =
                 Touchscreen.current.primaryTouch.position.ReadValue();
             
-            if (Touchscreen.current.primaryTouch.press.isPressed && 
+            if (Touchscreen.current.primaryTouch.press.wasPressedThisFrame && 
                 raycastManager.Raycast(touchPos, hits))
             {
                 Instantiate(spawnerPrefab, 
